@@ -1,4 +1,4 @@
-Description:
+## Description:
 
 Write a program that prompts the user to enter information for vehicles, stocks, or people.  Save the data of each type to their own text file.  Finally, prompt the user to select a file to print.
 Ask the user to choose one of the following options for input:
