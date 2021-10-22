@@ -62,5 +62,3 @@ def main():
     print(f'\tChecking:\t{checking:>20}')
     print(f"\tSavings:\t{savings:>20}")
     print("*" * 40)
-
-main()
