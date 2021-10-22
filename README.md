@@ -1,0 +1,2 @@
+# 152-081-Programming-in-Python
+In this course, students investigate the fundamentals of computer programming using the Python programming language. Students examine data types, variables, conditional statements, looping, array structures, and structured programming techniques. Upon completion of the course, students will be able to use Python to apply problem solving skills to create applications for delivery to various platforms.
