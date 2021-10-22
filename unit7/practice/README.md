@@ -13,9 +13,9 @@ If the input file contains:
 then the program produces the output file
 
     The lamb was sure to go!
-    Mary had a little lamb
     Whose fleece was white as snow.
     And everywhere that Mary went,
+    Mary had a little lamb
 
 Also, print the number of characters (exclude white spaces), 
 words, and lines in the input file.  We will consider a 
