@@ -1,7 +1,17 @@
-
-# Read inputs
-# Return the lists for prices, isPet, nItem
 def readInputs():
+    """
+    Reads inputs into three lists.
+
+    Returns
+    -------
+    prices : list
+        A list of prices.
+    isPet : list
+        A list of boolean strings.
+    nItem : list
+        A list of strings.
+
+    """
     prices = []
     isPet = []
     nItem = []
@@ -23,11 +33,27 @@ def readInputs():
     return prices, isPet, nItem
 
 # Method to create a discounted prices if qualified
-# @param prices - the prices of all items
-# @isPet - the list of boolean values for pet and non-pet items
-# @nItem - the list of all items
-# Return prices or newPrices and isQualify (for discount)
 def discount(prices, isPet, nItem):    
+    """
+    Creates a new discoutned price list for qualified items.
+
+    Parameters
+    ----------
+    prices : list
+        A list of prices.
+    isPet : list
+        A list of boolean strings.
+    nItem : list
+        A list of strings.
+
+    Returns
+    -------
+    list
+        Discounted or original list.
+    isQualify : boolean
+        Whether the item process are qualified for a discount.
+
+    """
     discount = 0.2
     isQualify = False
     newPrices = []
@@ -43,11 +69,25 @@ def discount(prices, isPet, nItem):
         return newPrices, isQualify
     return prices, isQualify
  
-# Prints the result to console
-# @param prices - the list of item prices
-# @param discountedPrices - the new discounted prices
-# @param isQualify - boolean (True/False) to check qualification for discount   
-def printResult(prices,discountedPrices, isQualify):    
+  
+def printResult(prices,discountedPrices, isQualify):   
+    """
+    Prints the results to the console
+
+    Parameters
+    ----------
+    prices : list
+        The original prices list.
+    discountedPrices : list
+        The discounted prices list.
+    isQualify : boolean
+        Flag to print discounted prices list.
+
+    Returns
+    -------
+    None.
+
+    """
     print("----------------------")
     print('Original prices:',prices)
     if isQualify:
@@ -57,10 +97,16 @@ def printResult(prices,discountedPrices, isQualify):
     
     print("\n*** Good-bye ***")
 
-# Main entry to program
+
 def main():
+    """
+    Main entry to the program
+
+    Returns
+    -------
+    None.
+
+    """
     prices, isPet, nItem = readInputs()
     discountedPrices, isQualify = discount(prices,isPet, nItem)
     printResult(prices, discountedPrices, isQualify)
-    
-main()
