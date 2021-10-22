@@ -392,5 +392,3 @@ def main():
             printPerson(file_persons)
         else:
             invalid()
-
-main()
