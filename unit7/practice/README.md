@@ -13,8 +13,8 @@ If the input file contains:
 then the program produces the output file
 
     The lamb was sure to go!
-    Whose fleece was white as snow.
     And everywhere that Mary went,
+    Whose fleece was white as snow.
     Mary had a little lamb
 
 Also, print the number of characters (exclude white spaces), 
