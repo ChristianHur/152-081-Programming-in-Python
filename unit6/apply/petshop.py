@@ -7,14 +7,14 @@ def readInputs():
     prices : list
         A list of prices.
     isPet : list
-        A list of boolean strings.
-    nItem : list
+        A list of boolean values.
+    nItems : list
         A list of strings.
 
     """
     prices = []
     isPet = []
-    nItem = []
+    nItems = []
     while True:
         price = float(input("Enter Price (-1 to quit):"))
         if price == -1:
@@ -23,17 +23,20 @@ def readInputs():
             print("*** INVALID PRICE.  TRY AGAIN. ***")
         else:
             prices.append(price)
-            nItem.append(input("Enter item:"))
+            nItems.append(input("Enter item:"))
             while True:
                 itemType = input("Is item a pet (Y/N)?").upper()
-                if itemType in ['Y','N']:                
-                    isPet.append(itemType)
+                if itemType in ['Y','N']:
+                    if itemType == 'Y':
+                        isPet.append(True)
+                    else:
+                        isPet.append(False)
                     break
-                print("*** INVALID.  TRY AGAIN. ***")
-    return prices, isPet, nItem
+                print("*** INVALID INPUT.  TRY AGAIN. ***")
+    return prices, isPet, nItems
 
 # Method to create a discounted prices if qualified
-def discount(prices, isPet, nItem):    
+def discount(prices, isPet, nItems):    
     """
     Creates a new discoutned price list for qualified items.
 
@@ -42,8 +45,8 @@ def discount(prices, isPet, nItem):
     prices : list
         A list of prices.
     isPet : list
-        A list of boolean strings.
-    nItem : list
+        A list of boolean values.
+    nItems : list
         A list of strings.
 
     Returns
@@ -57,11 +60,11 @@ def discount(prices, isPet, nItem):
     discount = 0.2
     isQualify = False
     newPrices = []
-    if "Y" in isPet:
-        if isPet.count('N') >= 5:
+    if True in isPet:
+        if isPet.count(False) >= 5:
             isQualify = True
-            for i in range(len(prices)):
-                if isPet[i] == 'N':
+            for i in range(len(nItems)):
+                if isPet[i] == False:
                     newPrices.append(float("{:,.2f}".format(prices[i] - prices[i] * discount)))
                 else:
                     newPrices.append(prices[i])
@@ -107,6 +110,6 @@ def main():
     None.
 
     """
-    prices, isPet, nItem = readInputs()
-    discountedPrices, isQualify = discount(prices,isPet, nItem)
+    prices, isPet, nItems = readInputs()
+    discountedPrices, isQualify = discount(prices,isPet, nItems)
     printResult(prices, discountedPrices, isQualify)
