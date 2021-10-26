@@ -1,13 +1,20 @@
 def main():
-    infile = open("littlelamb.txt","r")
-    lines = infile.readlines()
-    print("\n")
-    printLines(lines)
-    print("\n")
-    charCount = getCharCount(lines)
-    wordCount = getWordCount(lines)
-    lineCount = getLineCount(lines)
-    printResult(charCount, wordCount, lineCount)
+    IO_Error = False
+    try:
+        infile = open("littlelamb.txt","r")
+    except:
+        IO_Error = True
+        print("*** ERROR:  Could not open file. ***")
+
+    if not IO_Error:
+        lines = infile.readlines()
+        print("\n")
+        printLines(lines)
+        print("\n")
+        charCount = getCharCount(lines)
+        wordCount = getWordCount(lines)
+        lineCount = getLineCount(lines)
+        printResult(charCount, wordCount, lineCount)
 
 def printResult(charCount, wordCount, lineCount):
     print("Character count:",charCount)
