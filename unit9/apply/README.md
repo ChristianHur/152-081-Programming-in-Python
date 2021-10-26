@@ -64,19 +64,19 @@ Output:
     ==========================================================================================
     VIN                 MAKE                MODEL               YEAR                PRICE
     ------------------------------------------------------------------------------------------
-    WP0AA2A92CS661189   GMC                 Envoy XL            2002                $505,712
+    WP0AA2A92CS661189   GMC                 Envoy XL            2002                $55,712
     2G4GT5GX6E9095341   Pontiac             Vibe                2009                $45,333
-    1G6YV34A945245092   Ferrari             599 GTB Fiorano     2008                $738,928
-    WAUBH74F66N258296   Ford                EXP                 1988                $843,935
-    WBABD53425P639601   Chrysler            Town & Country      2007                $896,465
-    5UXFE43568L586092   Mitsubishi          Endeavor            2004                $949,560
-    1G6DM5EY3B0367966   Volkswagen          Jetta               1984                $832,029
-    2C4RDGEG5ER151231   Dodge               Charger             2007                $171,721
+    1G6YV34A945245092   Ferrari             599 GTB Fiorano     2008                $73,892
+    WAUBH74F66N258296   Ford                EXP                 1988                $84,393
+    WBABD53425P639601   Chrysler            Town & Country      2007                $89,646
+    5UXFE43568L586092   Mitsubishi          Endeavor            2004                $94,956
+    1G6DM5EY3B0367966   Volkswagen          Jetta               1984                $83,202
+    2C4RDGEG5ER151231   Dodge               Charger             2007                $17,172
     WBAUC9C58DV549228   Pontiac             Firebird            1984                $58,594
-    1FTEW1CM6CK082847   Buick               Regal               1995                $690,141
-    2C4RDGBG7FR808214   Mazda               Mazda2              2012                $135,165
-    1G4GD5ER1CF519207   Suzuki              Swift               1993                $681,443
-    1D4PT2GK5AW564141   Ford                Excursion           2004                $131,878
-    5GAKRBED0CJ344580   Lamborghini         Gallardo            2010                $234,509
-    2G4WC552871264621   Buick               Century             1987                $146,854
-    ------------------------------------------------------------------------------------------ 
+    1FTEW1CM6CK082847   Buick               Regal               1995                $69,014
+    2C4RDGBG7FR808214   Mazda               Mazda2              2012                $13,516
+    1G4GD5ER1CF519207   Suzuki              Swift               1993                $68,144
+    1D4PT2GK5AW564141   Ford                Excursion           2004                $43,187
+    5GAKRBED0CJ344580   Lamborghini         Gallardo            2010                $34,509
+    2G4WC552871264621   Buick               Century             1987                $46,854
+    ------------------------------------------------------------------------------------------
