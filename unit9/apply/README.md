@@ -17,29 +17,17 @@ For this exercise, you're going to write a Python program that creates car dearl
         default constructor that takes and sets all data fields
         Provide mutators and accessors for all fields
     
-## Part 2:  Implement a class called Dealer that includes the following:
-    
-    Fields:
-        vehicles - dictionary of vehicles using VIN as their keys
-        
-        Example:
-            { '123ABC' : vehicle1,
-             '232443R' : vehicle2, etc..}
-            
-    Methods:
-        
-        provide a default constructor to initialize the vehicles dictionary (set to empty)
-        addVehicle(vehicle) - add a single vehicle object to the vehicles dictionary
-        getOneVehicle(VIN) - retrieve a single vehicle from the dictionary using a VIN
-        getVehicles() - retrieve the entire dictionary
+## Part 2:  Create a driver program 
 
-## Part 3:  Create a driver program 
-
-Create a Python program that implements a dealership object.  The dealership object contains a dictionary of vehicles.  Vehicle data can be obtained using one of the following methods:
+Create a Python program that simulates a dealership that owns an inventory of vehicle objects.  Store the vehicles in a dictionary called inventory.  Vehicle data can be obtained using one of the following methods:
 
 **Option 1)**  Prompt the user to enter information for each vehicle, add it to the vehicles dictionary until the user stops (e.g. enter -1 to Quit)
 
 **Option 2)**  Fill the vehicles dictionary with the data from the vehicle.csv file (attached).   Open the file, read and parse each record (line), create a vehicle object with the data, then add it to the vehicles dictionary.  There should be 15 vehicles.
+
+The vehicles are stored in the form:
+    
+    { VIN1 : vehicle1, VIN2 : vehicle2, VIN3 : vehicle3, etc... }
     
 **Sample Run for Opton 1:**
     
