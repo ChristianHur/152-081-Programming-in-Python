@@ -7,10 +7,10 @@ For this exercise, you're going to write a Python program that creates car dearl
     Fields:
 
         VIN - string (alphanumeric)
-        Make - string
-        Model - string
-        Year -  int
-        Price - int
+        make - string
+        model - string
+        year -  int
+        price - int
     
     Method:
         
@@ -19,11 +19,11 @@ For this exercise, you're going to write a Python program that creates car dearl
     
 ## Part 2:  Create a driver program 
 
-Create a Python program that simulates a dealership that owns an inventory of vehicle objects.  Store the vehicles in a dictionary called inventory.  Vehicle data can be obtained using one of the following methods:
+Create a Python program that simulates a dealership that owns an **inventory** of vehicles.  Store the vehicles in a dictionary called **inventory**.  Vehicle data can be obtained using one of the following methods:
 
-**Option 1)**  Prompt the user to enter information for each vehicle, add it to the vehicles dictionary until the user stops (e.g. enter -1 to Quit)
+**Option 1)**  Prompt the user to enter information for each vehicle, add it to the **inventory** dictionary until the user stops (e.g. enter -1 to Quit)
 
-**Option 2)**  Fill the vehicles dictionary with the data from the vehicle.csv file (attached).   Open the file, read and parse each record (line), create a vehicle object with the data, then add it to the vehicles dictionary.  There should be 15 vehicles.
+**Option 2)**  Fill the **inventory** dictionary with the data from the *vehicles.csv* file (included).   Open the file, read and parse each record (line), create a vehicle object with the data, then add it to the **inventory** dictionary.  There should be 15 vehicles.
 
 The vehicles are stored in the form:
     
