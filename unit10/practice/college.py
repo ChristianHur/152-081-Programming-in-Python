@@ -1,6 +1,6 @@
 from student import Student
 
-def getStudentInput():
+def getStudentData():
   #TODO
   return student
 
