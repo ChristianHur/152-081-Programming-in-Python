@@ -38,7 +38,7 @@ def readInputs():
 # Method to create a discounted prices if qualified
 def discount(prices, isPet, nItems):    
     """
-    Creates a new discoutned price list for qualified items.
+    Creates a new discounted price list for qualified items.
 
     Parameters
     ----------
@@ -54,7 +54,7 @@ def discount(prices, isPet, nItems):
     list
         Discounted or original list.
     isQualify : boolean
-        Whether the item process are qualified for a discount.
+        Whether the item prices are qualified for a discount.
 
     """
     discount = 0.2
@@ -73,7 +73,7 @@ def discount(prices, isPet, nItems):
     return prices, isQualify
  
   
-def printResult(prices,discountedPrices, isQualify):   
+def printResult(prices, discountedPrices, isQualify):   
     """
     Prints the results to the console
 
@@ -94,7 +94,7 @@ def printResult(prices,discountedPrices, isQualify):
     print("----------------------")
     print('Original prices:',prices)
     if isQualify:
-        print('Discounted prices:',discountedPrices)
+        print('Discounted prices:', discountedPrices)
     else:
         print("Your items do not qualify for a discount.")
     
@@ -111,5 +111,5 @@ def main():
 
     """
     prices, isPet, nItems = readInputs()
-    discountedPrices, isQualify = discount(prices,isPet, nItems)
+    discountedPrices, isQualify = discount(prices, isPet, nItems)
     printResult(prices, discountedPrices, isQualify)
