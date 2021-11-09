@@ -41,7 +41,7 @@ def inputAuto():
                 outfile.write(make + ";" + model + ";" + year + ";" + price + "\n")    
             except:
                 print(ERROR_CANNOT_WRITE_FILE)
-                return None
+                break
             
             if not doMore():
                 break   
@@ -69,7 +69,7 @@ def inputStock():
                 outfile.write(company + ";" + symbol + ";"+ price + "\n")    
             except:
                 print(ERROR_CANNOT_WRITE_FILE)
-                return None
+                break
             
             if not doMore():
                 break   
@@ -100,7 +100,7 @@ def inputPerson():
                 outfile.write(name + ";" + position + ";" + salary + "\n")    
             except:
                 print(ERROR_CANNOT_WRITE_FILE)
-                return None
+                break
             
             if not doMore():
                 break            
