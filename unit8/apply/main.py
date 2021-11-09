@@ -84,11 +84,20 @@ Enter search term (999 to exit):999
 import sys
 import search_dictionary as sd
 
-def main():
+# Open a text file for reading/writing
+def openFile(file, mode):
     try:
-        infile = open("employees.csv")
+        f = open(file,mode)
+        return f
     except:
-        print('*** ERROR:  Could not open file ***')
+        print('*** Error:  Could not open file. ***')
+    return False
+
+def main():
+    infile = openFile('employees.csv','r')
+    if infile:
+        records = sd.getRecords(infile)
+    else:
         sys.exit(0)
         
     records = sd.getRecords(infile)
