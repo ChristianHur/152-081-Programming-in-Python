@@ -99,5 +99,4 @@ def main():
         result = search(term,records)
         printResult(result)
   
-
-main()
+    infile.close()
