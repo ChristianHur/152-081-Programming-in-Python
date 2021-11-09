@@ -14,3 +14,12 @@ def search(term,records):
 def printResult(result):
     # TO-DO
     pass
+
+# Open a text file for reading/writing
+def openFile(file, mode):
+    try:
+        f = open(file,mode)
+        return f
+    except:
+        print('*** Error:  Could not open file. ***')
+    return False
