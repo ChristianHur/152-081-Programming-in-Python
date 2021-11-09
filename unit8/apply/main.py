@@ -81,6 +81,27 @@ Dreddy              Founds              $893,568
 Enter search term (999 to exit):999
 *** Good-bye ***                
 '''
+import sys
+import search_dictionary as sd
 
-from search_dictionary import main
+def main():
+    try:
+        infile = open("employees.csv")
+    except:
+        print('*** ERROR:  Could not open file ***')
+        sys.exit(0)
+        
+    records = sd.getRecords(infile)
+    
+    while True:
+        term = input("Enter search term (999 to exit):").lower()
+        if term == '999':
+            print("*** Good-bye ***")
+            break
+        
+        result = sd.search(term,records)
+        sd.printResult(result)
+        
+    infile.close()
+    
 main()
