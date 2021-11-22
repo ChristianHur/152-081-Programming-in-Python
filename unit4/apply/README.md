@@ -12,3 +12,13 @@ Write a program that implements this algorithm. The user should supply an 8-digi
 
 Here are some sample valid numbers to try:
  41235680, 12345674, 98765431, 11224458, 45645645
+
+
+## File Information
+
+| File | Description
+|-|-|
+|creditcards1.py|Using ` while loops`  and conversions between strings and numbers|
+|creditcards2.py|Using ` for loops`  and conversions between strings and numbers|
+|creditcards3.py|Using ` while loops`  and arithmetic operators (no conversions)|
+|creditcards3.py|Using ` for loops ` and arithmetic operators (no conversions)|
