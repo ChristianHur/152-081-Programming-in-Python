@@ -15,12 +15,12 @@ Print the student name, total score, and average score
 
 ## Example:
     
-      student name:  Christian Hur
+      student name:  Harry Potter
       scores = [90.5,80,99,96.7,91.25]
 
       The output should print:
 
-          Name:  Christian Hur
+          Name:  Harry Potter
           Total Score: 457.45
           Average Score: 91.49
 """
