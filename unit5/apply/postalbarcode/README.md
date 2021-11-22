@@ -1,8 +1,8 @@
 # Description
+
 Create a Python program that asks the user for a 5-digit zip code and prints the bar code.
--------------------------
-Background Information
--------------------------
+
+## Background Information
 For faster sorting of letters, the United States Postal Service encourages companies that send large volumes of mail to use a bar code denoting the zip code.
 
 ![](https://github.com/ChristianHur/152-081-Programming-in-Python/blob/main/unit5/apply/postalbarcode/images/figure1.png)
