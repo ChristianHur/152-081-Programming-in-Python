@@ -15,8 +15,8 @@ Process and calculate the appropriate weekly pay for the employee.
 Print the employee information and their weekly pay. See sample runs at the bottom of this document.
 
 ## Part 1: Employee Class (super class)
-Create a Python file called employee.py. This is the super class (base class). The super class contains properties that are common to and shared by all subclasses. Include the following in this file.
-- Create a class called Employee
+Create a Python file called *employee.py*. This is the super class (base class). The super class contains properties that are common to and shared by all subclasses. Include the following in this file.
+- Create a class called `Employee`
 - Create a constructor that initializes all the following dependent fields:
 	-  Name (string)
 	- Position (string)
@@ -26,34 +26,34 @@ Create a Python file called employee.py. This is the super class (base class). T
 - Create Getter and Setter methods to set and return each data field
 
 ## Part 2: RegularEmployee Class (subclass)
-Create a Python file called regularEmployee.py. A regular employee inherits all the properties in the super class in addition to its own unique properties.
+Create a Python file called *regularEmployee.py*. A regular employee inherits all the properties in the super class in addition to its own unique properties.
 Include the following in this module.
-- Create a class called RegularEmployee that extends the Employee super class (make sure you import the Employee class first)
-- Constructor that initializes all dependent fields (e.g. fields that are unique only to the RegularEmployee class.)
+- Create a class called `RegularEmployee` that extends the Employee super class (make sure you import the `Employee` class first)
+- Constructor that initializes all dependent fields (e.g. fields that are unique only to the `RegularEmployee` class.)
 	- Hours worked (float)
 	- Hourly rate (float)
 	- Regular pay (float)
 	- Overtime pay (float)
 - Pass all common fields to the super class
 - Create Getter and Setter methods to set and return each data field
-- Create a method called calculatePay() to calculate and update the weekly pay in the super class.
-- Create a method called calculateOverTimePay() to calculate the overtime pay. This method should update the overtime pay property
+- Create a method called *calculatePay()* to calculate and update the weekly pay in the super class.
+- Create a method called *calculateOverTimePay()* to calculate the overtime pay. This method should update the overtime pay property
 
 ## Part 3: Supervisor Class (subclass)
-Create a Python file called supervisor.py. A supervisor inherits all the properties in the super class in addition to its own unique properties.
+Create a Python file called *supervisor.py*. A supervisor inherits all the properties in the super class in addition to its own unique properties.
 Include the following in this module.
-- Create a class called Supervisor that extends the Employee super class (be sure to import the Employee class)
-- Constructor that initializes all dependent fields (e.g. fields that are unique to the Supervisor class.)
+- Create a class called `Supervisor` that extends the `Employee` super class (be sure to import the `Employee` class)
+- Constructor that initializes all dependent fields (e.g. fields that are unique to the `Supervisor` class.)
 	- Salary (float)
 - Pass all common fields to the super class
 - Create Getter and Setter methods to set and return each data field
-- Create a method called calculatePay() to calculate and update the weekly pay in the super class.
+- Create a method called *calculatePay()* to calculate and update the weekly pay in the super class.
 
 ## Part 4: Driver Application
-Create a Python file called work.py. This will be the driver (main) program.
+Create a Python file called *work.py*. This will be the driver (main) program.
 Include the following in this file.
-- Import these classes from the appropriate modules: RegularEmployee, Supervisor
-- Create a main() method to start the program
+- Import these classes from the appropriate modules: `RegularEmployee`, `Supervisor`
+- Create a *main()* method to start the program
 - Create function(s) to setup the employee data
 - Create function(s) to process and print employee weekly pay to the screen
 
