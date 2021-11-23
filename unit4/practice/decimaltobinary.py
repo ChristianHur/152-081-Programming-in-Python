@@ -2,7 +2,9 @@
 Unit 4 - Practice (#2)
 @author:  Christian Hur
 
-Write a Python program that reads an integer value from the console and converts it into its binary equivalent . For example, if the user provides the input 13, the output should be:  1101. 
+Write a Python program that reads an integer value from the console and converts
+it into its binary equivalent . For example, if the user provides the input 13,
+the output should be:  1101. 
 """
 
 #Variable
