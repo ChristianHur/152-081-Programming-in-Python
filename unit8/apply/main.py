@@ -25,9 +25,12 @@ SOFTWARE.
 Description:
 ------------
 
-Write a program that reads the data from a CSV (comma separated value) file into a list of dictionaries whose keys are first name, last name, email, company, and salary.
+Write a program that reads the data from a CSV (comma separated value) file
+into a list of dictionaries whose keys are first name, last name, email,
+company, and salary.
 
-Then the program should prompt the user to enter first name and print the corresponding values. Stop when the user enters quit.
+Then the program should prompt the user to enter first name and print the
+corresponding values. Stop when the user enters quit.
 
 Pseucode:
     #1 - Build the list of records
