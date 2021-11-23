@@ -25,7 +25,8 @@ SOFTWARE.
 Description:
 ------------
 
-For this exercise, you're going to write a Python program that creates car dearlship that stores an inventory of car and print these cars to the console.
+For this exercise, you're going to write a Python program that creates car
+dearlship that stores an inventory of car and print these cars to the console.
 
 Part 1:  Implement a class called Vehicle that includes the following:
     
@@ -44,28 +45,32 @@ Part 1:  Implement a class called Vehicle that includes the following:
     
 Part 2:  Create a driver program 
 
-Create a Python program that simulates a dealership that owns an inventory of vehicle objects.  Store the vehicles in a dictionary called inventory.  Vehicle data can be obtained as follows:
+Create a Python program that simulates a dealership that owns an inventory
+of vehicle objects.  Store the vehicles in a dictionary called inventory.
+Vehicle data can be obtained as follows:
     
-Prompt the user to enter information for each vehicle, add it to the vehicles dictionary until the user stops (e.g. enter -1 to Quit).  Use the VIN as the keys for the vehicles.  The vehicles are stored in the form:
+Prompt the user to enter information for each vehicle, add it to the vehicles
+dictionary until the user stops (e.g. enter -1 to Quit).  Use the VIN as the
+keys for the vehicles.  The vehicles are stored in the form:
     
 { VIN1 : vehicle1, VIN2 : vehicle2, VIN3 : vehicle3, etc... }
 
     
 Sample Run:
     
-    Enter Car 1 (VIN, Make, Model, Year, Price):  123FT, Ford, Mustang, 2021, 45000 
-    Enter Car 2 (VIN, Make, Model, Year, Price):  345TY, Toyota, Camry, 2022, 35000 
-    Enter Car 3 (VIN, Make, Model, Year, Price):  567TS, Tesla, S, 2020, 65000 
+Enter Car 1 (VIN, Make, Model, Year, Price): 123FT, Ford, Mustang, 2021, 45000 
+Enter Car 2 (VIN, Make, Model, Year, Price): 345TY, Toyota, Camry, 2022, 35000 
+Enter Car 3 (VIN, Make, Model, Year, Price): 567TS, Tesla, S, 2020, 65000 
     
 Output:
     
-    ==========================================================================================
-    VIN                 MAKE                MODEL               YEAR                PRICE
-    ==========================================================================================
-    123FT               Ford                Mustang             2021                $45,000
-    345TY               Toyota              Camry               2022                $35,000
-    567TS               Tesla               S                   2020                $65,000
-    ------------------------------------------------------------------------------------------    
+===========================================================================
+VIN                 MAKE                MODEL          YEAR         PRICE
+===========================================================================
+123FT               Ford                Mustang        2021         $45,000
+345TY               Toyota              Camry          2022         $35,000
+567TS               Tesla               S              2020         $65,000
+---------------------------------------------------------------------------    
     
 """
 from vehicle import Vehicle
