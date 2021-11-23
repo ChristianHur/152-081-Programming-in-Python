@@ -19,7 +19,8 @@ SOFTWARE.
 -------------------------
 Description
 -------------------------
-Write a program that calculates and displays the conversion of an entered number of dollars into currency denominations—100s, 50s, 20s, 10s, 5s, and 1s. 
+Write a program that calculates and displays the conversion of an entered
+number of dollars into currency denominations—100s, 50s, 20s, 10s, 5s, and 1s. 
 '''
 
 # Input
