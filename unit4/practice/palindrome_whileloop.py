@@ -2,9 +2,13 @@
 Unit 4 - Practice (#1) -- using WHILE loop
 @author:  Christian Hur
 
-A palindrome is a word that can be read exactly the same forward and backward.   For example, the words "Harrah", "level", "did" are all palindrome, but the words "Harry", "evil", "dog" are not.   Write a Python program that reads a word and determine if the word is a palindrome.  Save the file as palindrome.py.
+A palindrome is a word that can be read exactly the same forward and backward.
+For example, the words "Harrah", "level", "did" are all palindrome, but the
+words "Harry", "evil", "dog" are not.   Write a Python program that reads a
+word and determine if the word is a palindrome.  Save the file as palindrome.py.
 
-Note:  Use only a for loop or a while loop.  Do not use any built-in shortcuts.  For example, the following shorcuit will automatically reverse a string:
+Note:  Use only a for loop or a while loop.  Do not use any built-in shortcuts.
+For example, the following shorcuit will automatically reverse a string:
 
 str = "Harry"
 new_str = str[::-1]
