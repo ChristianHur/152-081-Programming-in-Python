@@ -50,17 +50,10 @@ def getTimeName(hours, minutes, period):
     if minutes == 45:
 
         # Set the correct period
-        if hours == 11:
-            if period =='AM':
-                period = 'PM'
-            else:
-                period = 'AM'
+        period = 'PM' if hours == 11 and period =='AM' else 'PM'
 
         # Set the correct hour when hour is 12
-        if hours == 12:
-            hours = 1
-        else:
-            hours += 1
+        hours = 1 if hours == 12 else hours + 1
 
         timeName = "a quarter to " + str(hours) + ' ' + period
 
@@ -76,6 +69,7 @@ def getTimeName(hours, minutes, period):
         pastTheHour = ' ' + minute_text + " past " + str(hours) + ' ' + period
 
     return timeName + pastTheHour
+
 
 # Get the English minute name1
 def getMinutesName(minutes):
