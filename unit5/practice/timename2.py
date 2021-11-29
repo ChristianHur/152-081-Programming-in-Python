@@ -1,4 +1,4 @@
-'''
+"""
 MIT License
 
 Copyright (c) 2021 Christian Hur (Gateway Technical College)
@@ -34,7 +34,7 @@ getTimeName(8,15,PM)               # a quarter after 8 pm
 getTimeName(8,30,AM)               # half past 8 am
 getTimeName(8,45,PM)               # a quater to 9 am
 getTimeName(8,12,AM)               # twelve minutes past 8 am
-'''
+"""
 
 # Constants
 MINUTES = ["","one", "two", "three", "four", "five", "six", "seven", "eight", "nine"]
