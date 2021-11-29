@@ -7,7 +7,7 @@ Write a function *getInput()* to read 10 unique numbers. When the list contains 
 the program displays the contents.
 
 ### Part 2
-Write a function *removeMin()* that removes the minimum value from a list 
+Write a function *removeMin(ten_numbers)* that removes the minimum value from a list 
 without using the `min` function or `remove` method.
 
 ### Part 3
