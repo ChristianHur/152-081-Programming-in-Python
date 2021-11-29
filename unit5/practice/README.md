@@ -10,3 +10,10 @@ getTimeName(8,30,AM)               # half past 8 am
 getTimeName(8,45,PM)               # a quater to 9 am
 getTimeName(8,12,AM)               # 12 minutes past 8 am
 ```
+
+### Version Information
+Two versions showing different implemenations.
+|File|Description|
+|---|---|
+|timename1.py|Using minutes as a string and word constants for minutes
+|timename2.py|Using minutes as integer and lists to store word constants for minutes
