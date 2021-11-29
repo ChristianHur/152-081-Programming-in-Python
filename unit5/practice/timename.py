@@ -157,6 +157,6 @@ def main():
         print("*** Error:  Sorry, invalid time. Good-bye. ***")
     else:
         time_name = get_time_name(hours, minutes, period)
-        print("The time is", time_name + '.')
+        print("\nThe time is", time_name + '.')
         
 main()
