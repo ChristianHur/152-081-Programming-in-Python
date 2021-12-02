@@ -1,2 +1,2 @@
 # Description
-Some intermediate features including recursion, callbacks, closures, and Tkinter.
+Some intermediate features including recursion, callbacks, closures, decoators, and Tkinter.
